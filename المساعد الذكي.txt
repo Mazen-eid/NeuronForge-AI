@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeuronForge AI - Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 data-i18n="assistant_title"></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html"><span data-i18n="nav_home"></span></a></li>
+        <li><a href="dashboard.html"><span data-i18n="nav_dashboard"></span></a></li>
+      </ul>
+    </nav>
+    <select id="toggleLang"></select>
+  </header>
+
+  <main>
+    <section>
+      <h2 data-i18n="assistant_subtitle"></h2>
+      <textarea id="user-input" placeholder="" rows="4" data-i18n-placeholder="assistant_input_placeholder"></textarea>
+      <button onclick="sendRequest()" data-i18n="assistant_btn_send"></button>
+
+      <h3 data-i18n="assistant_response_title"></h3>
+      <pre id="response-area" data-i18n="assistant_response_wait"></pre>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="assistant.js"></script>
+</body>
+</html>
