@@ -1,0 +1,15 @@
+id: example-en-tech
+language: en
+niche: AI and technology news
+platform: youtube_shorts
+target_duration_seconds: 45
+resolution: [1080, 1920]
+fps: 30
+tone: punchy, curious, accurate
+youtube_category_id: "28"  # Science & Technology
+youtube_privacy: private
+cron: "0 */6 * * *"  # every 6 hours
+trend_sources:
+  - { kind: reddit, query: artificial }
+  - { kind: reddit, query: technology }
+  - { kind: google_trends, query: united_states }

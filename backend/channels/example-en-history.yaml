@@ -1,0 +1,14 @@
+id: example-en-history
+language: en
+niche: history and little-known stories
+platform: youtube_shorts
+target_duration_seconds: 50
+resolution: [1080, 1920]
+fps: 30
+tone: storytelling, vivid, concise
+youtube_category_id: "27"  # Education
+youtube_privacy: private
+cron: "30 */6 * * *"
+trend_sources:
+  - { kind: reddit, query: todayilearned }
+  - { kind: reddit, query: history }
