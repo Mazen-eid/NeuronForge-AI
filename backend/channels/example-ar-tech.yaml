@@ -1,0 +1,15 @@
+id: example-ar-tech
+language: ar
+niche: أخبار التكنولوجيا والذكاء الاصطناعي
+platform: youtube_shorts
+target_duration_seconds: 45
+resolution: [1080, 1920]
+fps: 30
+tone: واضح، مشوق، صادم قليلاً بدون مبالغة
+tts_voice: ar-EG-ShakirNeural
+youtube_category_id: "28"
+youtube_privacy: private
+cron: "0 */8 * * *"
+trend_sources:
+  - { kind: reddit, query: artificial }
+  - { kind: google_trends, query: egypt }
